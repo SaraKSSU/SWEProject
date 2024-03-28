@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".bookActivity">
+    tools:context=".book">
 
     <ScrollView
         android:layout_width="481dp"
@@ -109,15 +109,18 @@
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
-                    <Button
-                        android:id="@+id/button"
-                        android:layout_width="162dp"
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button2"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="12dp"
-                        android:backgroundTint="#673AB7"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="19dp"
+                        android:background="@drawable/button_background"
+                        android:gravity="center"
                         android:text="Book"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>

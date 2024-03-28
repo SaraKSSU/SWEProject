@@ -206,7 +206,8 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="411dp"
                 android:layout_height="99dp"
-                android:background="#D9B0CB">
+                android:background="#D9B0CB"
+                tools:ignore="MissingConstraints">
 
                 <ImageView
                     android:id="@+id/imageView1239"
